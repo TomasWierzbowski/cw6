@@ -2,8 +2,8 @@
 {
     public class SomeSortOfMedicament
     {
-        public string Name;
-        public string Description;
-        public string Type;
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Type { get; set; }
     }
 }
